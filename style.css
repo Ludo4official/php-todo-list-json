@@ -1,0 +1,43 @@
+body {
+    background-color: lightsalmon;
+}
+
+.my-text {
+    font-size: 3rem;
+    border-bottom: 1px solid black;
+}
+
+
+.list-cnt {
+    text-align: center;
+    background-color: black;
+    color: lightsalmon;
+    border-radius: 10px;
+}
+.list {
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0px 0px;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    color: green;
+}
+
+.my-input {
+    border-style: none;
+    border-radius: 5px;
+    line-height: 30px;
+    width: 400px;
+}
+
+.my-btn {
+    border-style: none;
+    border-radius: 5px;
+}
+
+.done {
+    text-decoration: line-through;
+}
